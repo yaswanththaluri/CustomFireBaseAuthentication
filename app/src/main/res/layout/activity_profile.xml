@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d9d9"
+    tools:context=".Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:id="@+id/pic"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/male"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textname"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="#006699"
+                android:layout_margin="5dp"
+                android:text="Name"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:text="Email"
+                android:textColor="#996633"
+                android:textSize="18sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signout"
+            android:text="Signout"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
